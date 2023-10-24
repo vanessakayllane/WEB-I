@@ -1,0 +1,22 @@
+<html lang="pt-BR"> 
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Menu Minimalista</title>
+  </head>
+  
+  <body>
+    <header>
+      <h1>Vanessinha acessórios</h1>
+    </header>
+    <nav>
+      <ul> 
+        <li><a href="#">Masculino</a></li>
+        <li><a href="#">Feminino</a></li>
+        <li><a href="#">Infantil</a></li>
+        <li><a href="#">Acessórios</a></li>
+        <li><a href="#">Promoções</a></li>
+      </ul>
+    </nav>
+    </html>
+  
