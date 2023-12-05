@@ -45,20 +45,5 @@
             <button class="buy-button" onclick="comprarAgora('Acessórios', 80.00)">Comprar Agora</button>
         </div>
     </section>
-
-    <div id="mensagem-compra" style="display: none;">
-        <p>Produto adicionado ao carrinho!</p>
-    </div>
-
-    <script>
-        function comprarAgora(nomeProduto, precoProduto) {
-            alert(`Produto adicionado ao carrinho:\n${nomeProduto} por R$ ${precoProduto.toFixed(2)}`);
-            // Adicione aqui a lógica para adicionar o produto ao carrinho
-            // Pode ser uma chamada a uma API, um redirecionamento para uma página de carrinho, etc.
-            
-            // Exibir mensagem
-            document.getElementById('mensagem-compra').style.display = 'block';
-        }
-    </script>
 </body>
 </html>
