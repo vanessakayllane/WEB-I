@@ -3,8 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Detalhes da Compra - </title>
+    <title>Detalhes da Compra - Acessórios</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Adicione seu estilo CSS aqui */
+    </style>
 </head>
 <body>
     <header>
@@ -16,10 +19,18 @@
             <h2>Roupa feminina : Calça Jeans e Blusa </h2>
             <p>R$ 500,00</p>
             <p>Conjunto</p>
-            <button class="buy-button">Adicionar ao Carrinho</button>
+            <button class="buy-button" onclick="adicionarAoCarrinho()">Adicionar ao Carrinho</button>
         </div>
     </section>
 
-    </footer>
+    <script>
+        function adicionarAoCarrinho() {
+            // Lógica para adicionar o produto ao carrinho
+            // Pode ser uma chamada a uma API, armazenamento local, etc.
+
+            // Exibir uma mensagem em uma janela de alerta
+            alert("Produto adicionado ao carrinho");
+        }
+    </script>
 </body>
 </html>
