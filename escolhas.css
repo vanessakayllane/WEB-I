@@ -49,3 +49,9 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+.info img {
+    height : 120px;
+    width : 80px;
+    
+}
